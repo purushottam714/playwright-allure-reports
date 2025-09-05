@@ -1,0 +1,76 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]:
+        - link "Rainy Day Parents Logo":
+          - /url: /content-moderation
+          - img "Rainy Day Parents Logo"
+        - button [ref=e6] [cursor=pointer]:
+          - img [ref=e7] [cursor=pointer]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Content Moderation" [ref=e11] [cursor=pointer]:
+              - /url: /content-moderation
+              - img [ref=e13] [cursor=pointer]
+          - listitem [ref=e15]:
+            - link "User Moderation" [ref=e16] [cursor=pointer]:
+              - /url: /user-moderation
+              - img [ref=e18] [cursor=pointer]
+          - listitem [ref=e23]:
+            - link "Activities" [ref=e24] [cursor=pointer]:
+              - /url: /activities
+              - img [ref=e26] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link "App Users" [ref=e29] [cursor=pointer]:
+              - /url: /app-users
+              - img [ref=e31] [cursor=pointer]
+          - listitem [ref=e36]:
+            - link "Admin Users" [ref=e37] [cursor=pointer]:
+              - /url: /admin-users
+              - img [ref=e39] [cursor=pointer]
+    - generic [ref=e51]:
+      - banner [ref=e52]:
+        - heading "App Users" [level=1] [ref=e54]
+        - button "RP Rainyday Parents SUPER_ADMIN" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58] [cursor=pointer]: RP
+          - generic [ref=e59] [cursor=pointer]:
+            - generic [ref=e60] [cursor=pointer]: Rainyday Parents
+            - generic [ref=e61] [cursor=pointer]: SUPER_ADMIN
+          - img [ref=e62] [cursor=pointer]
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: Search
+                - textbox "Search by name or email..." [ref=e72]
+              - generic [ref=e73]:
+                - generic [ref=e74]: Status
+                - generic [ref=e75]:
+                  - combobox [ref=e76]:
+                    - option "Active"
+                    - option "Suspended"
+                    - option "Banned" [selected]
+                  - button "Banned" [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78] [cursor=pointer]: Banned
+                    - img [ref=e79] [cursor=pointer]
+              - generic [ref=e81]:
+                - generic [ref=e82]: Joined Date (Start)
+                - textbox "mm/dd/yyyy" [ref=e87]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Joined Date (End)
+                - textbox "mm/dd/yyyy" [ref=e94]
+            - button "Clear Filters" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97] [cursor=pointer]:
+                - img [ref=e98] [cursor=pointer]
+                - text: Clear Filters
+          - generic [ref=e101]: "Total App Users: 134"
+          - paragraph [ref=e105]: No users found.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e107]: Admin App Users
+```
