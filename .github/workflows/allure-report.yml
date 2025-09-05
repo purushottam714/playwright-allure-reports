@@ -27,11 +27,32 @@ jobs:
 
       - name: Run Playwright tests
         run: npx playwright test --reporter=line,allure-playwright
+        continue-on-error: true   # ✅ continue even if tests fail
 
+      # ✅ Upload raw Playwright artifacts (screenshots, videos, traces, logs)
+      - name: Upload Playwright test artifacts
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-artifacts
+          path: test-results/
+
+      # ✅ Generate Allure Report (always, even on failures)
       - name: Generate Allure Report
+        if: always()
         run: npx allure generate allure-results --clean -o allure-report
 
+      # ✅ Upload Allure report as downloadable artifact (optional)
+      - name: Upload Allure HTML report artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-report
+
+      # ✅ Upload Pages artifact for GitHub Pages deployment
       - name: Upload Pages artifact
+        if: always()
         uses: actions/upload-pages-artifact@v3
         with:
           path: allure-report
