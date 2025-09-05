@@ -658,6 +658,24 @@ test('App Users: verify Total App Users count matches rows after Banned filter',
   console.log(`✅ Verified Banned users: ${rowCount} rows match UI count ${totalUsersCount}`);
 });
 
+// -----------------------------
+  // Intentional Failures for Allure Categories
+  // -----------------------------
+
+  // 2) Test defect (e.g., locator not found / timeout)
+  test('Intentional Test Defect', async ({ page }) => {
+    // Navigate to App Users
+    await page.getByRole('link', { name: 'App Users' }).click();
+    // Try to find a button that doesn’t exist
+    const fakeButton = page.getByRole('button', { name: 'ThisButtonDoesNotExist' });
+    await expect(fakeButton).toBeVisible({ timeout: 5000 });
+  });
+
+  // 3) Other defect (generic failure that doesn’t match regex patterns)
+  test('Intentional Other Defect', async () => {
+    // Throw a random error that won’t match AssertionError/Locator/Timeout
+    throw new Error('Simulated unexpected failure: Random crash 💥');
+  });
 
   test('Logout', async ({ page }) => {
     await page.getByRole('button', { name: /Rainyday Parents/i }).click();

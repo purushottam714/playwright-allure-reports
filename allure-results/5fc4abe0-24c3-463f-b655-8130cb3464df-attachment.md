@@ -1,0 +1,243 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]:
+        - link "Rainy Day Parents Logo":
+          - /url: /content-moderation
+          - img "Rainy Day Parents Logo"
+        - button [ref=e6] [cursor=pointer]:
+          - img [ref=e7] [cursor=pointer]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Content Moderation" [ref=e11] [cursor=pointer]:
+              - /url: /content-moderation
+              - img [ref=e13] [cursor=pointer]
+          - listitem [ref=e15]:
+            - link "User Moderation" [ref=e16] [cursor=pointer]:
+              - /url: /user-moderation
+              - img [ref=e18] [cursor=pointer]
+          - listitem [ref=e23]:
+            - link "Activities" [ref=e24] [cursor=pointer]:
+              - /url: /activities
+              - img [ref=e26] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link "App Users" [active] [ref=e29] [cursor=pointer]:
+              - /url: /app-users
+              - img [ref=e31] [cursor=pointer]
+          - listitem [ref=e36]:
+            - link "Admin Users" [ref=e37] [cursor=pointer]:
+              - /url: /admin-users
+              - img [ref=e39] [cursor=pointer]
+    - generic [ref=e51]:
+      - banner [ref=e52]:
+        - heading "App Users" [level=1] [ref=e54]
+        - button "RP Rainyday Parents SUPER_ADMIN" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58] [cursor=pointer]: RP
+          - generic [ref=e59] [cursor=pointer]:
+            - generic [ref=e60] [cursor=pointer]: Rainyday Parents
+            - generic [ref=e61] [cursor=pointer]: SUPER_ADMIN
+          - img [ref=e62] [cursor=pointer]
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: Search
+                - textbox "Search by name or email..." [ref=e72]
+              - generic [ref=e73]:
+                - generic [ref=e74]: Status
+                - generic [ref=e75]:
+                  - combobox [ref=e76]:
+                    - option "Active" [selected]
+                    - option "Suspended"
+                    - option "Banned"
+                  - button "Select Status" [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78] [cursor=pointer]: Select Status
+                    - img [ref=e79] [cursor=pointer]
+              - generic [ref=e81]:
+                - generic [ref=e82]: Joined Date (Start)
+                - textbox "mm/dd/yyyy" [ref=e87]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Joined Date (End)
+                - textbox "mm/dd/yyyy" [ref=e94]
+            - button "Clear Filters" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97] [cursor=pointer]:
+                - img [ref=e98] [cursor=pointer]
+                - text: Clear Filters
+          - generic [ref=e101]: "Total App Users: 134"
+          - table [ref=e105]:
+            - rowgroup [ref=e106]:
+              - row "No Name Email/Phone Status Child Profiles Joined Last Login Actions" [ref=e107]:
+                - cell "No" [ref=e108]
+                - cell "Name" [ref=e109]:
+                  - generic [ref=e110]:
+                    - text: Name
+                    - button [ref=e111] [cursor=pointer]:
+                      - img [ref=e113] [cursor=pointer]
+                - cell "Email/Phone" [ref=e115]:
+                  - generic [ref=e116]: Email/Phone
+                - cell "Status" [ref=e117]:
+                  - generic [ref=e118]: Status
+                - cell "Child Profiles" [ref=e119]:
+                  - generic [ref=e120]: Child Profiles
+                - cell "Joined" [ref=e121]:
+                  - generic [ref=e122]:
+                    - text: Joined
+                    - button [ref=e123] [cursor=pointer]:
+                      - img [ref=e125] [cursor=pointer]
+                - cell "Last Login" [ref=e127]:
+                  - generic [ref=e128]:
+                    - text: Last Login
+                    - button [ref=e129] [cursor=pointer]:
+                      - img [ref=e131] [cursor=pointer]
+                - cell "Actions" [ref=e133]:
+                  - generic [ref=e134]: Actions
+            - rowgroup [ref=e135]:
+              - row "1 Shaz Khan +13475679044 Active 1 Sep 1, 2025 Sep 5, 2025 View" [ref=e136] [cursor=pointer]:
+                - cell "1" [ref=e137] [cursor=pointer]
+                - cell "Shaz Khan" [ref=e138] [cursor=pointer]
+                - cell "+13475679044" [ref=e139] [cursor=pointer]
+                - cell "Active" [ref=e140] [cursor=pointer]:
+                  - generic [ref=e142] [cursor=pointer]:
+                    - img [ref=e143] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e146] [cursor=pointer]
+                - cell "Sep 1, 2025" [ref=e147] [cursor=pointer]
+                - cell "Sep 5, 2025" [ref=e148] [cursor=pointer]
+                - cell "View" [ref=e149] [cursor=pointer]:
+                  - button "View" [ref=e151] [cursor=pointer]:
+                    - generic [ref=e152] [cursor=pointer]: View
+              - row "2 Dev Dev dev@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e153] [cursor=pointer]:
+                - cell "2" [ref=e154] [cursor=pointer]
+                - cell "Dev Dev" [ref=e155] [cursor=pointer]
+                - cell "dev@yopmail.com" [ref=e156] [cursor=pointer]
+                - cell "Active" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e159] [cursor=pointer]:
+                    - img [ref=e160] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e163] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e164] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e165] [cursor=pointer]
+                - cell "View" [ref=e166] [cursor=pointer]:
+                  - button "View" [ref=e168] [cursor=pointer]:
+                    - generic [ref=e169] [cursor=pointer]: View
+              - row "3 Location iOS sid18@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e170] [cursor=pointer]:
+                - cell "3" [ref=e171] [cursor=pointer]
+                - cell "Location iOS" [ref=e172] [cursor=pointer]
+                - cell "sid18@yopmail.com" [ref=e173] [cursor=pointer]
+                - cell "Active" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e176] [cursor=pointer]:
+                    - img [ref=e177] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e180] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e181] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e182] [cursor=pointer]
+                - cell "View" [ref=e183] [cursor=pointer]:
+                  - button "View" [ref=e185] [cursor=pointer]:
+                    - generic [ref=e186] [cursor=pointer]: View
+              - row "4 Loc Final sid17@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e187] [cursor=pointer]:
+                - cell "4" [ref=e188] [cursor=pointer]
+                - cell "Loc Final" [ref=e189] [cursor=pointer]
+                - cell "sid17@yopmail.com" [ref=e190] [cursor=pointer]
+                - cell "Active" [ref=e191] [cursor=pointer]:
+                  - generic [ref=e193] [cursor=pointer]:
+                    - img [ref=e194] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e197] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e198] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e199] [cursor=pointer]
+                - cell "View" [ref=e200] [cursor=pointer]:
+                  - button "View" [ref=e202] [cursor=pointer]:
+                    - generic [ref=e203] [cursor=pointer]: View
+              - row "5 Final Test sid16@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e204] [cursor=pointer]:
+                - cell "5" [ref=e205] [cursor=pointer]
+                - cell "Final Test" [ref=e206] [cursor=pointer]
+                - cell "sid16@yopmail.com" [ref=e207] [cursor=pointer]
+                - cell "Active" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e210] [cursor=pointer]:
+                    - img [ref=e211] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e214] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e215] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e216] [cursor=pointer]
+                - cell "View" [ref=e217] [cursor=pointer]:
+                  - button "View" [ref=e219] [cursor=pointer]:
+                    - generic [ref=e220] [cursor=pointer]: View
+              - row "6 Loc T sid15@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e221] [cursor=pointer]:
+                - cell "6" [ref=e222] [cursor=pointer]
+                - cell "Loc T" [ref=e223] [cursor=pointer]
+                - cell "sid15@yopmail.com" [ref=e224] [cursor=pointer]
+                - cell "Active" [ref=e225] [cursor=pointer]:
+                  - generic [ref=e227] [cursor=pointer]:
+                    - img [ref=e228] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e231] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e232] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e233] [cursor=pointer]
+                - cell "View" [ref=e234] [cursor=pointer]:
+                  - button "View" [ref=e236] [cursor=pointer]:
+                    - generic [ref=e237] [cursor=pointer]: View
+              - row "7 Location User sid14@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e238] [cursor=pointer]:
+                - cell "7" [ref=e239] [cursor=pointer]
+                - cell "Location User" [ref=e240] [cursor=pointer]
+                - cell "sid14@yopmail.com" [ref=e241] [cursor=pointer]
+                - cell "Active" [ref=e242] [cursor=pointer]:
+                  - generic [ref=e244] [cursor=pointer]:
+                    - img [ref=e245] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e248] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e249] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e250] [cursor=pointer]
+                - cell "View" [ref=e251] [cursor=pointer]:
+                  - button "View" [ref=e253] [cursor=pointer]:
+                    - generic [ref=e254] [cursor=pointer]: View
+              - row "8 Tets Loc sid13@yopmail.com Active 1 Aug 28, 2025 Aug 28, 2025 View" [ref=e255] [cursor=pointer]:
+                - cell "8" [ref=e256] [cursor=pointer]
+                - cell "Tets Loc" [ref=e257] [cursor=pointer]
+                - cell "sid13@yopmail.com" [ref=e258] [cursor=pointer]
+                - cell "Active" [ref=e259] [cursor=pointer]:
+                  - generic [ref=e261] [cursor=pointer]:
+                    - img [ref=e262] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e265] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e266] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e267] [cursor=pointer]
+                - cell "View" [ref=e268] [cursor=pointer]:
+                  - button "View" [ref=e270] [cursor=pointer]:
+                    - generic [ref=e271] [cursor=pointer]: View
+              - row "9 Test Location sid12@yopmail.com Active 2 Aug 28, 2025 Aug 28, 2025 View" [ref=e272] [cursor=pointer]:
+                - cell "9" [ref=e273] [cursor=pointer]
+                - cell "Test Location" [ref=e274] [cursor=pointer]
+                - cell "sid12@yopmail.com" [ref=e275] [cursor=pointer]
+                - cell "Active" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e278] [cursor=pointer]:
+                    - img [ref=e279] [cursor=pointer]
+                    - text: Active
+                - cell "2" [ref=e282] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e283] [cursor=pointer]
+                - cell "Aug 28, 2025" [ref=e284] [cursor=pointer]
+                - cell "View" [ref=e285] [cursor=pointer]:
+                  - button "View" [ref=e287] [cursor=pointer]:
+                    - generic [ref=e288] [cursor=pointer]: View
+              - row "10 A s thedemonface1998@gmail.com Active 1 Aug 26, 2025 Aug 26, 2025 View" [ref=e289] [cursor=pointer]:
+                - cell "10" [ref=e290] [cursor=pointer]
+                - cell "A s" [ref=e291] [cursor=pointer]
+                - cell "thedemonface1998@gmail.com" [ref=e292] [cursor=pointer]
+                - cell "Active" [ref=e293] [cursor=pointer]:
+                  - generic [ref=e295] [cursor=pointer]:
+                    - img [ref=e296] [cursor=pointer]
+                    - text: Active
+                - cell "1" [ref=e299] [cursor=pointer]
+                - cell "Aug 26, 2025" [ref=e300] [cursor=pointer]
+                - cell "Aug 26, 2025" [ref=e301] [cursor=pointer]
+                - cell "View" [ref=e302] [cursor=pointer]:
+                  - button "View" [ref=e304] [cursor=pointer]:
+                    - generic [ref=e305] [cursor=pointer]: View
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e307]: Admin App Users
+```
