@@ -1,0 +1,20 @@
+{
+  "name": "playwrightetoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "npx playwright test --reporter=line,allure-playwright",
+  "allure:generate": "allure generate ./allure-results --clean -o ./docs",
+  "allure:open": "allure open ./allure-report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1",
+    "allure-playwright": "^3.3.3"
+  }
+}
