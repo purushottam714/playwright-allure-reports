@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
@@ -32,7 +32,7 @@ jobs:
       # ✅ Upload raw Playwright artifacts (screenshots, videos, traces, logs)
       - name: Upload Playwright test artifacts
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-artifacts
           path: test-results/
@@ -45,7 +45,7 @@ jobs:
       # ✅ Upload Allure report as downloadable artifact (optional)
       - name: Upload Allure HTML report artifact
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report
